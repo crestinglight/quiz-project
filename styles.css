@@ -27,28 +27,19 @@ label {
 	margin: auto;
 }
 
+
 .questionBox{
-	display: none;
-	width: 500px;
-	padding: 10px 10px 10px 10px;
-	background-color: rgba(16, 16, 16, 0.4);
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5px;
-	vertical-align: middle;
-}
-.questionBox1{
 	display: block;
 	width: 500px;
-	padding: 10px 10px 10px 10px;
 	background-color: rgba(16, 16, 16, 0.4);
-	margin: auto;
-	margin-bottom: 5px;
+	position: absolute;
 	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
 }
 
 .submit {
-	display: inline-block;
+	display: block;
 	background-color: #db0d0d;
 	color: white;
 	border: none;
@@ -57,13 +48,6 @@ label {
 	border-radius: 10px;
 }
 
-#question2 {
-	visibility: hidden;
-}
-
-#question3 {
-	visibility: hidden;
-}
 
 
 
